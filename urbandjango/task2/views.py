@@ -2,10 +2,10 @@ from django.shortcuts import render
 from django.views.generic import TemplateView
 
 
-def class_template(request):
-    return render(request, 'class_template.html')
+def func_template(request):
+    return render(request, 'second_task/func_template.html')
 
 
-#class func_template(TemplateView):
-    #template_name = 'func_template.html'
+#class class_template(TemplateView):
+    #template_name = 'class_template.html'
 
