@@ -28,7 +28,6 @@ urlpatterns = [
     path('games/', games),
     path('cart/', TemplateView.as_view(template_name='fourth_task/cart.html')),
     path('func_template/', func_template),
-    #path('class_template/', class_template),
     path('class_template/', TemplateView.as_view(template_name='second_task/class_template.html')),
 
 ]

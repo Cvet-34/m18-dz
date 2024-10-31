@@ -1,6 +1,14 @@
 from django.shortcuts import render
 
-
+from django.shortcuts import render
+"""def get_menu_context():
+    text = 'Природные товары для красоты и здоровья!'
+    features = ['надежная упаковка', 'высокое качество продукции', 'вся продукция сертифицирована']
+    print("Features:", features)
+    return {
+        'text': text,
+        'features': features
+    }"""
 # Create your views here.
 def menu(request):
     text = 'Природные товары для красоты издоровья!'
@@ -26,3 +34,6 @@ def games(request):
 
 def base(request):
     return render((request, 'platform.html'))
+
+
+

@@ -40,15 +40,16 @@
             <li> БЫСТРАЯ ДОСТАВКА </li>
         {% endblock %}
     </content>>
-    <cah>
-        {% block cah %}
+
+    <section>
+        {% block section %}
         <ul>
             {% for i in list %}
-            <p>{{ i|title }}</p>
+            <li>{{ i|title }}</li>
             {% endfor %}
-        </ul>>
-        {% endblock cah %}
-    </cah>>
+        </ul>
+        {% endblock section%}
+    </section>
     <info>
         {% block info %}
         {% include 'fourth_task/info.html' %}
@@ -56,3 +57,8 @@
     </info>
 </body>
 </html>
+
+
+
+
+
