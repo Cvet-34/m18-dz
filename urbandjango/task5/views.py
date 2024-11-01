@@ -23,3 +23,4 @@ def registration_page(request):
         form = UserRegister()
     return render(request, 'fifth_task/registration_page.html', {'form': form})
 
+
