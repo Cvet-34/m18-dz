@@ -3,7 +3,7 @@ from django.shortcuts import render
 from .forms import UserRegister
 
 
-username1 = ["Olga", "Nata", "Nik"]
+
 
 # Create your views here.
 def registration_page(request):
@@ -22,5 +22,7 @@ def registration_page(request):
 
         form = UserRegister()
     return render(request, 'fifth_task/registration_page.html', {'form': form})
+
+
 
 

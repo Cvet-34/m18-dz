@@ -32,3 +32,4 @@ urlpatterns = [
     path('class_template/', TemplateView.as_view(template_name='second_task/class_template.html')),
     path('', registration_page),
 ]
+
