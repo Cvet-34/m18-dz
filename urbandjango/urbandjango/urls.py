@@ -33,3 +33,4 @@ urlpatterns = [
     path('', registration_page),
 ]
 
+

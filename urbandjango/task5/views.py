@@ -26,3 +26,4 @@ def registration_page(request):
 
 
 
+
